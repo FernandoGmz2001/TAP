@@ -7,12 +7,16 @@ package libro.cap02.fechas;
 
 /**
  *
- * @author Oscar
+ * @author Bryant
  */
 public class TestFecha2 {
-    Fecha f;
-    f.setDia(2);
-    f.setMes(10);
-    f.setAnio(1970);
-    System.out.println(f);
+    public static void main(String[] args)   
+{      
+// definimos el objeto f (pero no lo creamos)      
+    Fecha f;      
+    f.setDia(2);     // aqui tira un error y fi naliza el programa      
+    f.setMes(10);    // no se llega a ejecutar      
+    f.setAnio(1970); // no se llega a ejecutar      
+    System.out.println(f); // no se llega a ejecutar   
+}
 }

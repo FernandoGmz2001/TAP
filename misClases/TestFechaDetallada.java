@@ -3,20 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package libro.cap02.misClases;
+package libro.cap02.misclases;
 
 /**
  *
- * @author Oscar
+ * @author Bryant
  */
 public class TestFechaDetallada {
-    public static void main (String []args)
-    {
-        FechaDetallada f = new FechaDetallada();
-        f.setDia(25);
-        f.setMes(10);
-        f.setAnio(2009);
-        
-        System.out.println(f);
-    }
+    public static void main(String[] args)   
+{      
+    FechaDetallada f=new FechaDetallada();      
+    f.setDia(25);      
+    f.setMes(10);      
+    f.setAnio(2009);      
+    System.out.println(f);   
+}
 }

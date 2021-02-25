@@ -3,27 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package libro.cap02.exepciones;
+package libro.cap02.Excepciones;
 
 /**
  *
- * @author Oscar
+ * @author Bryant
  */
-public class Demo1 {
-    public static void main(String[] args)
- {
- try
- {
- System.out.println("Hola, chau !");
- return;
- }
- catch(Exception ex)
- {
- System.out.println("Entre al catch...");
- }
- finally
- {
- System.out.println("Esto sale siempre !");
- }
- }
+public class Demo1
+{
+public static void main(String[] args)
+{
+try      
+{         
+System.out.println("Hola, chau !");return;      
+}
+catch(Exception ex)      
+{         
+System.out.println("Entre al catch...");      
+}
+finally      
+{         
+System.out.println("Esto sale siempre !");      
+}   
+}
 }

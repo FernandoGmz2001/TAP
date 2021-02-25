@@ -3,28 +3,30 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package libro.cap02.colecciones;
-import java.util.Vector;
+package libro.cap02.criterios;
+
 /**
  *
- * @author Oscar
+ * @author Bryant
  */
-public class TestVector {
-    public static void main(String[] args)
- {
- // instancio un Vector especializado en String
- Vector<String> v = new Vector<String>();
- // le asigno algunos valores
- v.add("Pablo");
- v.add("Juan");
- v.add("Carlos");
- String aux;
- // el metodo size indica cuantos elementos contiene el vector
- for(int i=0; i<v.size(); i++ )
- {
- // el metodo get retorna el i-esimo elemento
- aux = v.get(i);
- System.out.println(aux);
- }
- }
+import java.util.Vector;
+public class TestVector
+{
+public static void main(String[] args)   
+{      
+// instancio un Vector especializado en String      
+Vector<String> v = new Vector<String>();      
+// le asigno algunos valores      
+v.add("Pablo");      
+v.add("Juan");      
+v.add("Carlos");
+String aux;      
+// el metodo size indica cuantos elementos contiene el vector 
+for(int i=0; i<v.size(); i++ )      
+{         
+// el metodo get retorna el i-esimo elemento         
+aux = v.get(i);         
+System.out.println(aux);      
+}   
+}
 }

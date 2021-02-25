@@ -3,20 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package libro.cap02.colecciones;
-import java.util.Collection;
-import java.util.Vector;
+package libro.cap02.Colecciones;
+
 /**
  *
- * @author Oscar
+ * @author Bryant
  */
-public class UNombres {
-    public static Collection<String> obtenerLista()
- {
- Vector<String> v = new Vector<String>();
- v.add("Pablo");
- v.add("Juan");
- v.add("Carlos");
- return v;
- }
+import java.util.Collection;
+import java.util.Vector;
+public class UNombres
+{
+public static Collection<String> obtenerLista()   
+{      
+Vector<String> v = new Vector<String>();      
+v.add("Pablo");      
+v.add("Juan");      
+v.add("Carlos");
+return v;   
+}
 }

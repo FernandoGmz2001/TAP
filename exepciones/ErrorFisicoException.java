@@ -3,14 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package libro.cap02.exepciones;
+package libro.cap02.Excepciones;
 
 /**
  *
- * @author Oscar
+ * @author Bryant
  */
 @SuppressWarnings("serial")
 public class ErrorFisicoException extends Exception
 {
-    super("Ocurrio un Error Fisico", ex);
+public ErrorFisicoException(Exception ex)   
+{
+super("Ocurrio un Error Fisico", ex);   
+}
 }
